@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=IBM+Plex+Mono&display=swap');
+body {
+    background-color: #131316;
+    color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    /* centering a div but made easy */
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
