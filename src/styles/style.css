@@ -7,11 +7,36 @@ body {
     margin: 0;
 }
 
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+}
+
 section {
     /* centering a div but made easy */
     display: grid;
     place-items: center;
     align-content: center;
     min-height: 100vh;
+}
+
+header {
+    background-color: blue;
+    margin-top: 0%;
+}
+
+nav {
+    background-color: red;
+}
+
+ul {
+    
 }
 
