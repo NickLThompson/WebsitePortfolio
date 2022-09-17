@@ -28,19 +28,29 @@ section {
     min-height: 100vh;
 }
 
+/* Style the navigation links */
+.navlink {
+    width: auto;
+    border: 3px solid transparent;
+    margin: -10px;
+    text-align: center;
+}
+
+/* underline when hover */
+.navlink:hover {
+    color: rgb(0, 169, 129);
+    border: 3px solid;
+    
+}
+
 header {
     background-color: rgb(115, 191, 253);
 }
 
-.navlink:hover {
-    
-    background-color: #dd5800;
-    color: rgb(0, 0, 0);
-}
 
 .container {
     font-size: larger;
-    width: 30%;
+    
     /* font-family: 'Crete Round', serif; */
     
 }

@@ -26,20 +26,30 @@ function App() {
       </header>
 
       <section className="section">
-        <h1>Welcome to my website!</h1>
-        <p>this is where all my work stuff will be shown!</p>
+        <h1>Home Section</h1>
+        <p>put a quick summary or something here</p>
       </section>
 
       <section className="section">
-        <h2>This is the 2nd part</h2>
-        <p>not sure what to put here</p>
+        <h2>About Me Section</h2>
+        <p>This is where I'll put actual information about myself and why I got into coding, my hobbies, etc.</p>
       </section>
 
       <section className="section">
-        <h3>alright just one more thing</h3>
-        <p>filler text here honestly</p>
+        <h3>Portfolio Section</h3>
+        <p>This section will be where I show off my github projects</p>
       </section>
 
+      <section className="section">
+        <h3>Contact Me Section</h3>
+        <p>This will have ways to contact me, pretty self explanatory</p>
+      </section>
+
+      <section className="section">
+        <h3>Resume Section</h3>
+        <p>This is where I will put my resume to be seen and also downloaded (maybe?)</p>
+      </section>
+      
 
     </main>
   );
