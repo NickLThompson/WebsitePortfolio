@@ -30,10 +30,15 @@ const App = () => {
 
     return (
         <>
-            <Navigation currentTab={currentTab} setCurrentTab={setCurrentTab} />
-            <Header currentTab={currentTab} setCurrentTab={setCurrentTab} />
-            <>{loadTab}</>
-            {/* <Footer currentTab={currentTab} setCurrentTab={setCurrentTab} /> */}
+            <Navigation />
+            <Header />
+            <main>{loadTab()}
+            <About />
+            <Portfolio />
+            <Contact />
+            <Resume />
+            </main>
+            <Footer currentTab={currentTab} setCurrentTab={setCurrentTab} />
         </>
     )
 }
