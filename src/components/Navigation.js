@@ -1,8 +1,7 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 
-const navigation = (props) => {
+const navigation = () => {
     return (
         <Navbar bg="dark" variant="dark" sticky="top">
             <Container className="navbar">

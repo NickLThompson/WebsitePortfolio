@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 body {
-    background-color: #131316;
-    color: whitesmoke;
+    background: linear-gradient(#e4801c, #d72262, #8e0782, #6e00a1);
+    animation: gradient 1s ease infinite;
     font-family: 'IBM Plex Mono', monospace;
+    color: whitesmoke;
     padding: 0;
     margin: 0;
 }
 
+
 body::-webkit-scrollbar {
-    width: 0.25rem;
+    width: 0.5rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -42,11 +44,6 @@ section {
     border: 3px solid;
     
 }
-
-header {
-    background-color: rgb(115, 191, 253);
-}
-
 
 .container {
     font-size: larger;

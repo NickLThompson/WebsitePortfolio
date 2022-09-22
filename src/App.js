@@ -31,7 +31,6 @@ const App = () => {
     return (
         <>
             <Navigation />
-            <Header />
             <main>{loadTab()}
             <About />
             <Portfolio />
