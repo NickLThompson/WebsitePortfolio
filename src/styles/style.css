@@ -51,3 +51,8 @@ section {
     /* font-family: 'Crete Round', serif; */
     
 }
+
+#portfolioImage {
+    height: 100px;
+    width: 100px;
+}
