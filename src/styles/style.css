@@ -46,13 +46,21 @@ section {
 }
 
 .container {
-    font-size: larger;
-    
-    /* font-family: 'Crete Round', serif; */
     
 }
 
+img {
+    max-width: 75%;
+}
+
+#starter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #portfolioImage {
-    height: 100px;
-    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
