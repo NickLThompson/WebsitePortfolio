@@ -50,17 +50,13 @@ section {
 }
 
 img {
-    max-width: 75%;
+    max-width: 50%;
 }
 
 #starter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 #portfolioImage {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
