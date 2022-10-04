@@ -22,13 +22,12 @@ body::-webkit-scrollbar-thumb {
     background: #6649b8;
 }
 
-section {
+#home, #about, #portfolio, #contact, #resume {
     /* centering a div but made easy */
     display: grid;
     place-items: center;
     align-content: center;
     min-height: 100vh;
-    overflow: hidden;
 }
 
 /* Style the navigation links */
@@ -38,17 +37,26 @@ section {
     margin: 5px;
     font-size: 1.5rem;
     text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 /* underline when hover */
 .navlink:hover {
-    color: rgb(0, 169, 129);
+    color: rgb(0, 150, 196);
+    border-bottom: 3px solid #6649b8;
+}
+
+
+#portfolioImage {
+    max-width: 60%;
+}
+
+#starter {
     border: 3px solid;
     
 }
-
-
-img {
-    max-width: 50%;
+#starter2 {
+    border: 3px solid;
+    
 }
-
