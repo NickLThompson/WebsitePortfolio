@@ -1,36 +1,36 @@
 import React from 'react'
-import { Container, Nav, Navbar } from 'react-bootstrap'
 
 const navigation = () => {
     return (
-        <Navbar bg="dark" variant="dark" sticky="top">
-            <Container className="navbar">
-                <Nav.Link
-                    className="navlink"
-                    a href="#home">Home
-                </Nav.Link>
 
-                <Nav.Link
-                    className="navlink"
-                    a href="#about">About
-                </Nav.Link>
+        // telling the page this is a navbar with these details
+        <nav className="navbar bg-dark sticky-top">
 
-                <Nav.Link
-                    className="navlink"
-                    a href="#portfolio">Portfolio
-                </Nav.Link>
+            {/* provides a full width container, spanning the entire width of the viewport; mandatory */}
+            <div className="container-fluid">
 
-                <Nav.Link
-                    className="navlink"
-                    a href="#contact">Contact Me
-                </Nav.Link>
+                <span className="navbar-brand m-1 p-1 fs-1 h1 text-white">Nickolas Thompson</span>
 
-                <Nav.Link
-                    className="navlink"
-                    a href="#resume">Resume
-                </Nav.Link>
-            </Container>
-        </Navbar>
+                <ul className="navbar-nav flex-row">
+                    {/* navbar-nav makes it as navbar; flex-row controls spacing and alignment; padding-border-margin */}
+                    <ul>
+                        <a className="navlink" href="#home">Home</a>
+                    </ul>
+                    <ul>
+                        <a className="navlink" href="#about">About</a>
+                    </ul>
+                    <ul>
+                        <a className="navlink" href="#portfolio">Portfolio</a>
+                    </ul>
+                    <ul>
+                        <a className="navlink" href="#contact">Contact</a>
+                    </ul>
+                    <ul>
+                        <a className="navlink" href="#resume">Resume</a>
+                    </ul>
+                </ul>
+            </div>
+        </nav>
     )
 }
 

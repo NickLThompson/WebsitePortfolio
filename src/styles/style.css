@@ -28,13 +28,15 @@ section {
     place-items: center;
     align-content: center;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 /* Style the navigation links */
 .navlink {
-    width: auto;
+    width: 100%;
     border: 3px solid transparent;
-    margin: -10px;
+    margin: 5px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -45,18 +47,8 @@ section {
     
 }
 
-.container {
-    
-}
 
 img {
     max-width: 50%;
 }
 
-#starter {
-    
-}
-
-#portfolioImage {
-    
-}
