@@ -3,9 +3,9 @@ import React from 'react'
 
 const Home = () => {
     return (
-    <div className="container text-center" id="home">
-            <div class="row">
-                <div className="col fs-3" id="starter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+        <div className="container-fluid text-center" id="home">
+            <div className="row">
+                <div className="col fs-3" id="starter">My name is Nickolas Thompson. I'm a Full Stack Web Developer from North Carolina. </div>
                 <div className="col" id="starter2">
                     <img
                         src={require("../images/PortfolioImage1.png")}
@@ -14,7 +14,7 @@ const Home = () => {
                     </img>
                 </div>
             </div>
-    </div>
+        </div>
     )
 }
 export default Home
