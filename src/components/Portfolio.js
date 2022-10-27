@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio = () => {
     return (
-        <section className="section" id="resume">
+        <section className="section" id="portfolio">
             <h3>Portfolio</h3>
             <p>This is where I will put a list of my favorite coding projects</p>
             <div className="container">
